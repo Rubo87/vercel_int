@@ -10,28 +10,50 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background: url('https://wallpapercave.com/wp/OXMRO1s.jpg') no-repeat center center fixed;
+            background-size: cover;
             color: #333;
         }
         header {
-            background-color: #333;
+            background-color: rgba(0, 0, 0, 0.8);
             color: #fff;
             padding: 1rem 0;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+            letter-spacing: 1px;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 2rem auto;
-            padding: 1rem;
-            background: #fff;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.9);
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #f6f2f2;
+        .about-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        .profile-img {
+            flex: 0 0 150px;
+            margin-right: 1.5rem;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 3px solid #333;
+        }
+        .content-section {
+            flex: 1;
         }
         h2 {
             color: #333;
+            margin-top: 0;
         }
         ul {
             list-style-type: disc;
@@ -50,8 +72,24 @@
         <h1>Welcome to My Professional Portfolio</h1>
     </header>
     <div class="container">
-        <h2>About Me</h2>
-        <p>I am an experienced Customer Success Manager with a strong background in B2B SaaS and over 10 years of expertise in customer-focused roles. My passion lies in driving client satisfaction and fostering long-lasting relationships. Alongside my professional experience, I am fluent in English and Spanish, and I am working on improving my German skills to expand my support capabilities.</p>
+        <div class="about-section">
+            <a href="https://www.linkedin.com/in/rubenoterol/" target="_blank">
+                <img src="https://media.licdn.com/dms/image/v2/C4E03AQH3RpSX_zXhzQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1653555837732?e=2147483647&v=beta&t=PnJQ2ho_flEQKwoiATsVPa5KLWva0aJJWgexlWhV4gk" alt="Profile Photo" class="profile-img">
+            </a>
+            <div class="content-section">
+                <h2>About Me</h2>
+                <p>I am an experienced Customer Success Manager with a strong background in B2B SaaS and over 10 years of expertise in customer-focused roles. My passion lies in driving client satisfaction and fostering long-lasting relationships. Alongside my professional experience, I am fluent in English and Spanish, and I am working on improving my German skills to expand my support capabilities.</p>
+            </div>
+        </div>
+        <h2>Education</h2>
+        <ul>
+            <li>Full-Stack Web & App Development (11.2023 - 05.2024) - WBS Coding School, Germany</li>
+            <li>B1 German Language Course and Certification (11.2022 - 07.2023) - Germany</li>
+            <li>NVQ in Customer Service and Management Level 3 (09.2018 - 06.2019) - Babcock, United Kingdom</li>
+            <li>Cambridge English: Advanced Certificate (CAE) (09.2014 - 06.2015) - Cardiff and Vale College, United Kingdom</li>
+            <li>Diploma in Computer Systems (Hardware and Software) (09.2005 - 06.2007) - Seresco, Oviedo, Spain</li>
+            <li>A-Levels (09.2003 - 06.2005)</li>
+        </ul>
 
         <h2>Professional Experience</h2>
         <h3>Customer Success Manager - Fidelo Software GmbH (10.2022 - Present)</h3>
@@ -60,6 +98,14 @@
             <li>Client onboarding, training, and account management.</li>
             <li>Organizing webinars and building collaborations with organizations.</li>
             <li>Cross-functional collaboration and supporting sales/marketing efforts.</li>
+        </ul>
+
+        <h3>FOH Manager - Marportsunbeach S.L Beach bar Restaurant, Spain (04.2020 - 04.2022)</h3>
+        <ul>
+            <li>Customer retention.</li>
+            <li>KPI Analysis.</li>
+            <li>Modify strategies based on KPI trends and insights.</li>
+            <li>Setting high standards and creating a solid structure to maintain the business afloat and make it thrive in the following years.</li>
         </ul>
 
         <h3>Administrative Officer - HMRC (SRRT) (01.2019 - 01.2020)</h3>
@@ -78,16 +124,10 @@
 
         <h2>Interests</h2>
         <ul>
-            <li>Leveraging technology to improve customer experiences.</li>
-            <li>Continuous learning and development in web and app development.</li>
-            <li>Exploring innovative solutions in B2B SaaS and IT support systems.</li>
-        </ul>
-
-        <h2>Education</h2>
-        <ul>
-            <li>Full-Stack Web & App Development (11.2023 - 05.2024) - WBS Coding School, Germany</li>
-            <li>B1 German Language Course and Certification (11.2022 - 07.2023) - Germany</li>
-            <li>Diploma in Computer Systems (Hardware and Software) (09.2005 - 06.2007) - Seresco, Spain</li>
+            <li>Web development.</li>
+            <li>Reading.</li>
+            <li>Learning languages.</li>
+            <li>Sports.</li>
         </ul>
     </div>
     <footer>
